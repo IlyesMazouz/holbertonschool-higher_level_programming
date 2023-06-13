@@ -11,12 +11,12 @@ class Square:
 
     def __init__(self, size):
         """
-        initializes a Square instance
+        initializes a square instance
 
         args:
-            size (int): The size of the square
+            size (int):the size of the square
 
         attributes:
-            __size (int): The private instance attribute representing the size of the square
+            __size (int):private instance attribute representing size of square
         """
         self.__size = size
