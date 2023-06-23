@@ -28,7 +28,7 @@ class Rectangle(BaseGeometry):
     def integer_validator(self, name, value):
         """Validates that the given value is a positive integer"""
         if not isinstance(value, int) or value <= 0:
-            raise TypeError("{} must be an integer greater than 0".format(name))
+            raise TypeError("{} must be an integer greater than0".format(name))
 
     def __str__(self):
         """Returns a string representation of the rectangle"""
