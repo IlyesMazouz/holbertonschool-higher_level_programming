@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""
+unittest for rectangle class
+"""
 import io
 import unittest
 from contextlib import redirect_stdout
@@ -70,5 +74,5 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(self.rect.y, 6)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
