@@ -5,6 +5,10 @@ Defines a Rectangle class that represents a rectangle
 
 
 class Rectangle:
+    """
+    The Rectangle class represents a rectangle
+    """
+
     number_of_instances = 0
     print_symbol = "#"
 
@@ -115,7 +119,8 @@ class Rectangle:
 
     def __repr__(self):
         """
-        Returns a string representation that can recreate a new instance of the rectangle
+        Returns a string representation that can recreate
+        a new instance of the rectangle
 
         Returns:
             str: The string representation of the rectangle
