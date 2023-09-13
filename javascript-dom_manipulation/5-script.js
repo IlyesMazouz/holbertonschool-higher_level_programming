@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	var headerElement = document.querySelector('header');
 
 	updateHeaderElement.addEventListener('click', function () {
-		headerElement.textContent = 'New Header!!!'; // Update the text of the header
+		headerElement.textContent = 'New Header!!!'; 
 	});
 });
