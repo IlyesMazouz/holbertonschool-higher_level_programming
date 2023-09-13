@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 	var headerElement = document.querySelector('header');
   
-	headerElement.style.color = '#FF0000';
+	headerElement.style.color = 'red';
   });
   
